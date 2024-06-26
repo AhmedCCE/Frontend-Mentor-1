@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+body {
+  background-image: url(./assets/crew/background-crew-desktop.jpg);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  padding-right: 0;
+  position: relative;
+}
+ul.links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  background-image: linear-gradient(
+    to right,
+    #131522,
+    #314359,
+    #7c8491,
+    #3b4c68,
+    #334a6a,
+    #1a2747
+  );
+}
+
+li {
+  cursor: pointer;
+}
+.logo {
+  width: 85px;
+  height: 85px;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.header:before {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 2px;
+  background: #222430;
+  top: 50%;
+  left: 13%;
+}
+
+.landing {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 79vh;
+  position: relative;
+}
+.landing .txt {
+  width: 510px;
+}
+.landing .txt h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 100;
+  margin-top: -10px;
+}
+.landing p {
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  margin-top: 50px;
+}
+.landing h3 {
+  font-size: 28px;
+  font-weight: 100;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+}
+.landing h2 {
+  text-transform: uppercase;
+  font-size: 27px;
+  font-weight: 100;
+  color: darkgray;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+.landing ul {
+  display: flex;
+}
+.landing ul li {
+  height: 15px;
+  width: 15px;
+  background: white;
+  border-radius: 100%;
+  border: none;
+  margin-right: 30px;
+  margin-top: 100px;
+}
