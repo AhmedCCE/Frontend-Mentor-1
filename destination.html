@@ -25,6 +25,32 @@
         <li id="crew">02 Crew</li>
         <li id="tech">03 Technology</li>
       </ul>
+      <div class="iconList" id="iconList22">
+        <svg
+          id="bar"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 21"
+          style="width: 40px; height: auto"
+        >
+          <g fill="#D0D6F9" fill-rule="evenodd">
+            <path d="M0 0h24v3H0z" />
+            <path d="M0 9h24v3H0z" />
+            <path d="M0 18h24v3H0z" />
+          </g>
+        </svg>
+        <svg
+          id="close"
+          class="none"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 21"
+          style="width: 40px; height: auto"
+        >
+          <g fill="#D0D6F9" fill-rule="evenodd">
+            <path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z" />
+            <path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z" />
+          </g>
+        </svg>
+      </div>
     </div>
 
     <div class="landing">
@@ -32,17 +58,17 @@
         <div class="img">
           <div class="catigory">01 Pick your destination</div>
 
-          <img src="./assets/destination/image-mars.png" alt="" />
+          <img id="imga" src="./assets/destination/image-mars.png" alt="" />
         </div>
         <div class="txt">
-          <ul>
-            <li>Moon</li>
-            <li>Mars</li>
-            <li>Europa</li>
-            <li>Titan</li>
+          <ul id="ul">
+            <li class="ullis">Moon</li>
+            <li class="ullis active">Mars</li>
+            <li class="ullis">Europa</li>
+            <li class="ullis">Titan</li>
           </ul>
-          <h1>Mars</h1>
-          <p>
+          <h1 id="h1txt">Mars</h1>
+          <p id="ptxt">
             Don’t forget to pack your hiking boots. You’ll need them to tackle
             Olympus Mons, the tallest planetary mountain in our solar system.
             It’s two and a half times the size of Everest!
@@ -63,4 +89,5 @@
     </div>
   </body>
   <script src="./main.js"></script>
+  <script src="./destinationMain.js"></script>
 </html>
