@@ -19,16 +19,17 @@ body {
   li {
     color: darkgray;
   }
-  a {
-    text-decoration: none;
-    color: white;
-    text-decoration: none;
-    color: white;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    width: 100%;
-  }
+}
+
+a {
+  text-decoration: none;
+  color: white !important;
+  text-decoration: none;
+  color: white;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 a:hover {
   border-bottom: solid 2px white;
@@ -263,7 +264,7 @@ h3.h3Small {
   }
 }
 @media (max-width: 400px) {
-  .landing img{
+  .landing img {
     width: 250px;
   }
   .landing h3.h3Small {
